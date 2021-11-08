@@ -13,8 +13,6 @@ This repo contains the code for a marketing website where the HTML and CSS code 
 
 ## Screenshot
 
-Front page screenshot:
-
 ![Screenshot of marketing website that has been refactored for accessibility](/assets/images/screenshot.jpg)
 
 ## Live Link
