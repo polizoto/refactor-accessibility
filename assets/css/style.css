@@ -75,6 +75,16 @@ header nav ul li {
 
 /* Hero Style End */
 
+/* Main Content Area Style Begin */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Main Content Area Style End */
+
 /* Utility Classes Begin */
 
 .float-left {
@@ -88,16 +98,6 @@ header nav ul li {
 }
 
 /* Utility Classes End */
-
-/* Content Section Begin */
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/* Content Section End */
 
 /* Section-Title Style Start */
 
