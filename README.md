@@ -6,13 +6,17 @@ This repo is a demonstration of how to refactor HTML and CSS code for a marketin
 
 This repo contains the code for a marketing website where the HTML and CSS code have been refactored in the following ways
 
-- Semantic HTML5 elements: <header>, <nav>, <main>, <footer>
-- alternative text is added
+- Semantic HTML5 elements: `<header>`, `<nav>`, `<main>`, `<footer>`
+- alternative text, `aria-label` for background image, and null-alt are added
 - CSS rules and properties are not duplicated
 - CSS is commented and presented following the semantic structure of the page
 
 ## Screenshot
 
+Front page screenshot:
+
+![Screenshot of marketing website that has been refactored for accessibility](/assets/images/screenshot.jpg)
+
 ## Live Link
 
-[Visit the live website](https://polizoto.github.io/refactor-accessibility/) to see how the code appears on your device.
+[Live website](https://polizoto.github.io/refactor-accessibility/)
