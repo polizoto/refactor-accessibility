@@ -25,6 +25,35 @@ p {
 
 /* Global Styles End */
 
+/*  Begin Skip Navigation Link */
+
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}  
+
+a.skip-main:focus, a.skip-main:active {
+    color: #2a607c;
+    background-color:#ffffff;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    padding:5px;
+    border:4px solid #2a607c;
+    text-align:center;  
+    font-size: 30px;
+    z-index:999;
+}
+
+/* End Skip Navigation Link */
+
 /* Begin Header Section */
 
 header {
@@ -59,8 +88,6 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
-/*  Increased size of text in Nav Links*/
 
 header nav ul li a {
     font-size: 28px;
@@ -124,8 +151,6 @@ header nav ul li a {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/*  Increased size of text in body section */
 
 .section-title p {
     font-size: 25px;
